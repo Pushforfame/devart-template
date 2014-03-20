@@ -1,4 +1,4 @@
-# Project Title
+# Pushforfame
 Insert the name of your project
 
 ## Authors
