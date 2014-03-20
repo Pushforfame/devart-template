@@ -1,5 +1,11 @@
-Insert a description to describe your update to document your creative process. The Commissioned Interactive Artists will be doing the same so you can reference their Project Posts.
+Project Reference
 
-![Example Image](../project_images/cover.jpg?raw=true "Example Image")
+![Example Image](http://feng-yuting.com/wp-content/uploads/2014/02/vlcsnap-2014-02-03-11h50m53s126.png "Example Image")
+Project Video
+https://www.youtube.com/watch?v=zCPx_WEGuFk
 
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
+Project Reference
+Josh
+http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html
+
+
