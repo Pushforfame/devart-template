@@ -2,7 +2,7 @@ We use internet as part of collective narrative pieces.
 
 #How website work?
 ##We use google map API.
-![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/Screen-Shot-2014-03-28-at-11.18.53-AM.png "Example Image")
+![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/Screen-Shot-2014-03-28-at-11.34.07-AM.png "Example Image")
 ##About Us
 ![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/Screen-Shot-2014-03-28-at-11.19.09-AM.png "Example Image")
 ##People
