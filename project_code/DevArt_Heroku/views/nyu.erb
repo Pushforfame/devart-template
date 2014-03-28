@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<title>Pushforfame</title>
+
+	<meta name="description" content="Horizontal Scrolling with jQuery">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+		body { background-color: black; }
+		.section { 
+			display: block; 
+			width: 712px; 
+			height: 400px; 
+			float: left; 
+			margin: 0px; 
+			opacity: 1.0; 
+			border-radius: 0px; 
+			/*top: 400px;*/
+		}
+
+		.blue { background-color: #06F; }
+		.green { background-color: #0f9d00; }
+		.red { background-color: #F00; }
+		.yellow { background-color: #ffea00; }
+		#container { width: 191558px;}  /*   container width = 712px * number of pictures  */
+
+		p {
+	        font-family: 'Open Sans', sans-serif; 
+	        font-size: 16px;
+	        color: white; opacity: 0.9;
+	        z-index: 20;
+	      }
+	      a:link {text-decoration:none;}    /* unvisited link */
+	      a:visited {text-decoration:none; color: #FFFFFF;} /* visited link */
+	      a:active {text-decoration:underline;}  /* selected link */
+	      a:link {text-decoration:none; color:#FFFFFF !important; opacity:0.8;}
+	      a:hover {color:#FF0000 !important;} 
+	</style>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+</head>
+<body>
+	<!-- <div id="filler"></div> -->
+	<div id="container">
+		<!-- 1 -->
+		<img src="nyu.jpg" class="section" style="padding-right:30px" />
+		<!-- <img src="images/feature_1.jpg" class="section" style="padding-right:30px" /> -->
+
+		<!-- total 268-->
+		<img src="/nyu_1/2973_3222014_1258_Result.jpg" class="section" />
+		<img src="/nyu_1/2974_3222014_1259_Result.jpg" class="section" />
+		<img src="/nyu_1/2975_3222014_131_Result.jpg" class="section" />
+		<img src="/nyu_1/2976_3222014_132_Result.jpg" class="section" />
+		<img src="/nyu_1/2977_3222014_135_Result.jpg" class="section" />
+		<img src="/nyu_1/2978_3222014_135_Result.jpg" class="section" />
+		<img src="/nyu_1/2979_3222014_135_Result.jpg" class="section" />
+		<img src="/nyu_1/2980_3222014_136_Result.jpg" class="section" />
+		<img src="/nyu_1/2981_3222014_1312_Result.jpg" class="section" />
+		<img src="/nyu_1/2982_3222014_1313_Result.jpg" class="section" />
+
+		<img src="/nyu_1/2983_3222014_1314_Result.jpg" class="section" />
+		<img src="/nyu_1/2984_3222014_1316_Result.jpg" class="section" />
+		<img src="/nyu_1/2985_3222014_1317_Result.jpg" class="section" />
+		<img src="/nyu_1/2986_3222014_1320_Result.jpg" class="section" />
+		<img src="/nyu_1/2987_3222014_1320_Result.jpg" class="section" />
+		<img src="/nyu_1/2988_3222014_1322_Result.jpg" class="section" />
+		<img src="/nyu_1/2989_3222014_1323_Result.jpg" class="section" />
+		<img src="/nyu_1/2990_3222014_1325_Result.jpg" class="section" />
+		<img src="/nyu_1/2991_3222014_1327_Result.jpg" class="section" />
+		<img src="/nyu_1/2992_3222014_1329_Result.jpg" class="section" />
+		<img src="/nyu_1/2993_3222014_1333_Result.jpg" class="section" />
+		<img src="/nyu_1/2994_3222014_1333_Result.jpg" class="section" />
+		<img src="/nyu_1/2995_3222014_13452_Result.jpg" class="section" />
+		<img src="/nyu_1/2996_3222014_13454_Result.jpg" class="section" />
+		<img src="/nyu_1/2997_3222014_13455_Result.jpg" class="section" />
+		<img src="/nyu_1/2998_3222014_13455_Result.jpg" class="section" />
+		<img src="/nyu_1/2999_3222014_13457_Result.jpg" class="section" />
+		<img src="/nyu_1/3000_3222014_25937_Result.jpg" class="section" />
+		<img src="/nyu_1/3001_3222014_25942_Result.jpg" class="section" />
+		<img src="/nyu_1/3002_3222014_25942_Result.jpg" class="section" />
+		<img src="/nyu_1/3003_3222014_25945_Result.jpg" class="section" />
+		<img src="/nyu_1/3004_3222014_25946_Result.jpg" class="section" />
+		<img src="/nyu_1/3005_3222014_25958_Result.jpg" class="section" />
+		<img src="/nyu_1/3006_3222014_25958_Result.jpg" class="section" />
+		<img src="/nyu_1/3007_3222014_303_Result.jpg" class="section" />
+		<img src="/nyu_1/3008_3222014_303_Result.jpg" class="section" />
+		<img src="/nyu_1/3009_3222014_303_Result.jpg" class="section" />
+		<img src="/nyu_1/3010_3222014_306_Result.jpg" class="section" />
+		<img src="/nyu_1/3011_3222014_306_Result.jpg" class="section" />
+		<img src="/nyu_1/3012_3222014_309_Result.jpg" class="section" />
+		<img src="/nyu_1/3013_3222014_309_Result.jpg" class="section" />
+		<img src="/nyu_1/3014_3222014_3012_Result.jpg" class="section" />
+		<img src="/nyu_1/3015_3222014_3012_Result.jpg" class="section" />
+		<img src="/nyu_1/3016_3222014_3030_Result.jpg" class="section" />
+		<img src="/nyu_1/3017_3222014_3030_Result.jpg" class="section" />
+		<img src="/nyu_1/3018_3222014_6128_Result.jpg" class="section" />
+		<img src="/nyu_1/3019_3222014_6128_Result.jpg" class="section" />
+		<img src="/nyu_1/3020_3222014_6128_Result.jpg" class="section" />
+		<img src="/nyu_1/3021_3222014_6129_Result.jpg" class="section" />
+		<img src="/nyu_1/3022_3222014_6129_Result.jpg" class="section" />
+		<img src="/nyu_1/3023_3222014_6129_Result.jpg" class="section" />
+		<img src="/nyu_1/3024_3222014_6129_Result.jpg" class="section" />
+		<img src="/nyu_1/3025_3222014_6129_Result.jpg" class="section" />
+		<img src="/nyu_1/3026_3222014_61210_Result.jpg" class="section" />
+		<img src="/nyu_1/3027_3222014_61210_Result.jpg" class="section" />
+		<img src="/nyu_1/3028_3222014_61210_Result.jpg" class="section" />
+		<img src="/nyu_1/3029_3222014_61210_Result.jpg" class="section" />
+		<img src="/nyu_1/3030_3222014_61210_Result.jpg" class="section" />
+		<img src="/nyu_1/3032_3222014_61219_Result.jpg" class="section" />
+		<img src="/nyu_1/3033_3222014_61220_Result.jpg" class="section" />
+		<img src="/nyu_1/3034_3222014_61220_Result.jpg" class="section" />
+		<img src="/nyu_1/3035_3222014_61229_Result.jpg" class="section" />
+		<img src="/nyu_1/3036_3222014_61229_Result.jpg" class="section" />
+		<img src="/nyu_1/3037_3222014_61229_Result.jpg" class="section" />
+		<img src="/nyu_1/3038_3222014_92820_Result.jpg" class="section" />
+
+
+		<!-- nyu_2 205 pictures -->
+				<img src="/nyu_2/0_3222014_12717.jpg" class="section" />
+		<img src="/nyu_2/0_3222014_114458.jpg" class="section" />
+		<img src="/nyu_2/1_3222014_12719.jpg" class="section" />
+		<img src="/nyu_2/2_3222014_13138.jpg" class="section" />
+		<img src="/nyu_2/3_3222014_131312.jpg" class="section" />
+		<img src="/nyu_2/4_3222014_131318.jpg" class="section" />
+		<img src="/nyu_2/5_3222014_131328.jpg" class="section" />
+		<img src="/nyu_2/6_3222014_131330.jpg" class="section" />
+		<img src="/nyu_2/7_3222014_131338.jpg" class="section" />
+		<img src="/nyu_2/8_3222014_131339.jpg" class="section" />
+		<img src="/nyu_2/9_3222014_131423.jpg" class="section" />
+		<img src="/nyu_2/10_3222014_13227.jpg" class="section" />
+		<img src="/nyu_2/11_3222014_132210.jpg" class="section" />
+		<img src="/nyu_2/12_3222014_132215.jpg" class="section" />
+		<img src="/nyu_2/13_3222014_132440.jpg" class="section" />
+		<img src="/nyu_2/14_3222014_132441.jpg" class="section" />
+		<img src="/nyu_2/15_3222014_132442.jpg" class="section" />
+		<img src="/nyu_2/16_3222014_13281.jpg" class="section" />
+		<img src="/nyu_2/17_3222014_13282.jpg" class="section" />
+		<img src="/nyu_2/18_3222014_135720.jpg" class="section" />
+		<img src="/nyu_2/19_3222014_135741.jpg" class="section" />
+		<img src="/nyu_2/20_3222014_14619.jpg" class="section" />
+		<img src="/nyu_2/21_3222014_14627.jpg" class="section" />
+		<img src="/nyu_2/22_3222014_14627.jpg" class="section" />
+		<img src="/nyu_2/23_3222014_14633.jpg" class="section" />
+		<img src="/nyu_2/24_3222014_14634.jpg" class="section" />
+		<img src="/nyu_2/25_3222014_14634.jpg" class="section" />
+		<img src="/nyu_2/26_3222014_142216.jpg" class="section" />
+		<img src="/nyu_2/27_3222014_142217.jpg" class="section" />
+		<img src="/nyu_2/28_3222014_142234.jpg" class="section" />
+		<img src="/nyu_2/29_3222014_142234.jpg" class="section" />
+		<img src="/nyu_2/30_3222014_142514.jpg" class="section" />
+		<img src="/nyu_2/31_3222014_145836.jpg" class="section" />
+		<img src="/nyu_2/32_3222014_145837.jpg" class="section" />
+		<img src="/nyu_2/33_3222014_145844.jpg" class="section" />
+		<img src="/nyu_2/34_3222014_145845.jpg" class="section" />
+		<img src="/nyu_2/35_3222014_145853.jpg" class="section" />
+		<img src="/nyu_2/36_3222014_14596.jpg" class="section" />
+		<img src="/nyu_2/37_3222014_1555.jpg" class="section" />
+		<img src="/nyu_2/38_3222014_1556.jpg" class="section" />
+		<img src="/nyu_2/39_3222014_1556.jpg" class="section" />
+		<img src="/nyu_2/40_3222014_1558.jpg" class="section" />
+		<img src="/nyu_2/41_3222014_1558.jpg" class="section" />
+		<img src="/nyu_2/42_3222014_151124.jpg" class="section" />
+		<img src="/nyu_2/43_3222014_151125.jpg" class="section" />
+		<img src="/nyu_2/44_3222014_151213.jpg" class="section" />
+		<img src="/nyu_2/45_3222014_151214.jpg" class="section" />
+		<img src="/nyu_2/46_3222014_151214.jpg" class="section" />
+		<img src="/nyu_2/47_3222014_151219.jpg" class="section" />
+		<img src="/nyu_2/48_3222014_151219.jpg" class="section" />
+		<img src="/nyu_2/49_3222014_151221.jpg" class="section" />
+		<img src="/nyu_2/50_3222014_151221.jpg" class="section" />
+		<img src="/nyu_2/51_3222014_151222.jpg" class="section" />
+		<img src="/nyu_2/52_3222014_151222.jpg" class="section" />
+		<img src="/nyu_2/53_3222014_151224.jpg" class="section" />
+		<img src="/nyu_2/54_3222014_151224.jpg" class="section" />
+		<img src="/nyu_2/55_3222014_151225.jpg" class="section" />
+		<img src="/nyu_2/56_3222014_151225.jpg" class="section" />
+		<img src="/nyu_2/57_3222014_151227.jpg" class="section" />
+		<img src="/nyu_2/58_3222014_151228.jpg" class="section" />
+		<img src="/nyu_2/59_3222014_151228.jpg" class="section" />
+		<img src="/nyu_2/60_3222014_151229.jpg" class="section" />
+		<img src="/nyu_2/61_3222014_151229.jpg" class="section" />
+		<img src="/nyu_2/62_3222014_151229.jpg" class="section" />
+		<img src="/nyu_2/63_3222014_151231.jpg" class="section" />
+		<img src="/nyu_2/64_3222014_151241.jpg" class="section" />
+		<img src="/nyu_2/66_3222014_151243.jpg" class="section" />
+		<img src="/nyu_2/67_3222014_151244.jpg" class="section" />
+		<img src="/nyu_2/68_3222014_151244.jpg" class="section" />
+		<img src="/nyu_2/69_3222014_151246.jpg" class="section" />
+		<img src="/nyu_2/70_3222014_151246.jpg" class="section" />
+		<img src="/nyu_2/71_3222014_151251.jpg" class="section" />
+		<img src="/nyu_2/72_3222014_151253.jpg" class="section" />
+		<img src="/nyu_2/73_3222014_151314.jpg" class="section" />
+		<img src="/nyu_2/74_3222014_151314.jpg" class="section" />
+		<img src="/nyu_2/75_3222014_151317.jpg" class="section" />
+		<img src="/nyu_2/76_3222014_151319.jpg" class="section" />
+		<img src="/nyu_2/78_3222014_151339.jpg" class="section" />
+		<img src="/nyu_2/79_3222014_151355.jpg" class="section" />
+		<img src="/nyu_2/80_3222014_154815.jpg" class="section" />
+		<img src="/nyu_2/81_3222014_154822.jpg" class="section" />
+		<img src="/nyu_2/82_3222014_154825.jpg" class="section" />
+		<img src="/nyu_2/83_3222014_154828.jpg" class="section" />
+		<img src="/nyu_2/84_3222014_154835.jpg" class="section" />
+		<img src="/nyu_2/85_3222014_154843.jpg" class="section" />
+		<img src="/nyu_2/86_3222014_16930.jpg" class="section" />
+		<img src="/nyu_2/87_3222014_16931.jpg" class="section" />
+		<img src="/nyu_2/88_3222014_16933.jpg" class="section" />
+		<img src="/nyu_2/89_3222014_16933.jpg" class="section" />
+		<img src="/nyu_2/90_3222014_16934.jpg" class="section" />
+		<img src="/nyu_2/91_3222014_16934.jpg" class="section" />
+		<img src="/nyu_2/92_3222014_16936.jpg" class="section" />
+		<img src="/nyu_2/93_3222014_16944.jpg" class="section" />
+		<img src="/nyu_2/94_3222014_171730.jpg" class="section" />
+		<img src="/nyu_2/95_3222014_171731.jpg" class="section" />
+		<img src="/nyu_2/96_3222014_171731.jpg" class="section" />
+		<img src="/nyu_2/97_3222014_171737.jpg" class="section" />
+		<img src="/nyu_2/98_3222014_171738.jpg" class="section" />
+		<img src="/nyu_2/99_3222014_175738.jpg" class="section" />
+		<img src="/nyu_2/100_3222014_18426.jpg" class="section" />
+		<img src="/nyu_2/101_3222014_18432.jpg" class="section" />
+		<img src="/nyu_2/102_3222014_181753.jpg" class="section" />
+		<img src="/nyu_2/103_3222014_181759.jpg" class="section" />
+		<img src="/nyu_2/104_3222014_18183.jpg" class="section" />
+		<img src="/nyu_2/105_3222014_18185.jpg" class="section" />
+		<img src="/nyu_2/106_3222014_18189.jpg" class="section" />
+		<img src="/nyu_2/107_3222014_181818.jpg" class="section" />
+		<img src="/nyu_2/108_3222014_18251.jpg" class="section" />
+		<img src="/nyu_2/109_3222014_18253.jpg" class="section" />
+		<img src="/nyu_2/110_3222014_18253.jpg" class="section" />
+		<img src="/nyu_2/111_3222014_18253.jpg" class="section" />
+		<img src="/nyu_2/112_3222014_18255.jpg" class="section" />
+		<img src="/nyu_2/113_3222014_18255.jpg" class="section" />
+		<img src="/nyu_2/114_3222014_182520.jpg" class="section" />
+		<img src="/nyu_2/115_3222014_182524.jpg" class="section" />
+		<img src="/nyu_2/116_3222014_182527.jpg" class="section" />
+		<img src="/nyu_2/117_3222014_182529.jpg" class="section" />
+		<img src="/nyu_2/118_3222014_182532.jpg" class="section" />
+		<img src="/nyu_2/119_3222014_182539.jpg" class="section" />
+		<img src="/nyu_2/120_3222014_182547.jpg" class="section" />
+		<img src="/nyu_2/121_3222014_182554.jpg" class="section" />
+		<img src="/nyu_2/122_3222014_182622.jpg" class="section" />
+		<img src="/nyu_2/123_3222014_182622.jpg" class="section" />
+		<img src="/nyu_2/124_3222014_182627.jpg" class="section" />
+		<img src="/nyu_2/125_3222014_182628.jpg" class="section" />
+		<img src="/nyu_2/126_3222014_182644.jpg" class="section" />
+		<img src="/nyu_2/127_3222014_182645.jpg" class="section" />
+		<img src="/nyu_2/128_3222014_191237.jpg" class="section" />
+		<img src="/nyu_2/129_3222014_191237.jpg" class="section" />
+		<img src="/nyu_2/130_3222014_191239.jpg" class="section" />
+		<img src="/nyu_2/131_3222014_19132.jpg" class="section" />
+		<img src="/nyu_2/132_3222014_191311.jpg" class="section" />
+		<img src="/nyu_2/133_3222014_191314.jpg" class="section" />
+		<img src="/nyu_2/134_3222014_191425.jpg" class="section" />
+		<img src="/nyu_2/135_3222014_191645.jpg" class="section" />
+		<img src="/nyu_2/136_3222014_191646.jpg" class="section" />
+		<img src="/nyu_2/137_3222014_191654.jpg" class="section" />
+		<img src="/nyu_2/138_3222014_191716.jpg" class="section" />
+		<img src="/nyu_2/139_3222014_195116.jpg" class="section" />
+		<img src="/nyu_2/140_3222014_202942.jpg" class="section" />
+		<img src="/nyu_2/141_3222014_202945.jpg" class="section" />
+		<img src="/nyu_2/142_3222014_202948.jpg" class="section" />
+		<img src="/nyu_2/143_3222014_202948.jpg" class="section" />
+		<img src="/nyu_2/144_3222014_202948.jpg" class="section" />
+		<img src="/nyu_2/145_3222014_202951.jpg" class="section" />
+		<img src="/nyu_2/146_3222014_202953.jpg" class="section" />
+		<img src="/nyu_2/147_3222014_202954.jpg" class="section" />
+		<img src="/nyu_2/148_3222014_202954.jpg" class="section" />
+		<img src="/nyu_2/149_3222014_202955.jpg" class="section" />
+		<img src="/nyu_2/150_3222014_202955.jpg" class="section" />
+		<img src="/nyu_2/151_3222014_202957.jpg" class="section" />
+		<img src="/nyu_2/152_3222014_20300.jpg" class="section" />
+		<img src="/nyu_2/153_3222014_203928.jpg" class="section" />
+		<img src="/nyu_2/154_3222014_203933.jpg" class="section" />
+		<img src="/nyu_2/155_3222014_203933.jpg" class="section" />
+		<img src="/nyu_2/156_3222014_203942.jpg" class="section" />
+		<img src="/nyu_2/157_3222014_212414.jpg" class="section" />
+		<img src="/nyu_2/158_3222014_212418.jpg" class="section" />
+		<img src="/nyu_2/159_3222014_212419.jpg" class="section" />
+		<img src="/nyu_2/160_3222014_212419.jpg" class="section" />
+		<img src="/nyu_2/161_3222014_212420.jpg" class="section" />
+		<img src="/nyu_2/162_3222014_212420.jpg" class="section" />
+		<img src="/nyu_2/163_3222014_212425.jpg" class="section" />
+		<img src="/nyu_2/164_3222014_212426.jpg" class="section" />
+		<img src="/nyu_2/165_3222014_212426.jpg" class="section" />
+		<img src="/nyu_2/166_3222014_212432.jpg" class="section" />
+		<img src="/nyu_2/167_3222014_212439.jpg" class="section" />
+		<img src="/nyu_2/168_3222014_212440.jpg" class="section" />
+		<img src="/nyu_2/169_3222014_212440.jpg" class="section" />
+		<img src="/nyu_2/170_3222014_212440.jpg" class="section" />
+		<img src="/nyu_2/171_3222014_212442.jpg" class="section" />
+		<img src="/nyu_2/172_3222014_212447.jpg" class="section" />
+		<img src="/nyu_2/173_3222014_212457.jpg" class="section" />
+		<img src="/nyu_2/174_3222014_212459.jpg" class="section" />
+		<img src="/nyu_2/175_3222014_21253.jpg" class="section" />
+		<img src="/nyu_2/176_3222014_213932.jpg" class="section" />
+		<img src="/nyu_2/177_3222014_213933.jpg" class="section" />
+		<img src="/nyu_2/178_3222014_213941.jpg" class="section" />
+		<img src="/nyu_2/179_3222014_22922.jpg" class="section" />
+		<img src="/nyu_2/180_3222014_22927.jpg" class="section" />
+		<img src="/nyu_2/181_3222014_22934.jpg" class="section" />
+		<img src="/nyu_2/182_3222014_224059.jpg" class="section" />
+		<img src="/nyu_2/183_3222014_22410.jpg" class="section" />
+		<img src="/nyu_2/184_3222014_22410.jpg" class="section" />
+		<img src="/nyu_2/185_3222014_22414.jpg" class="section" />
+		<img src="/nyu_2/186_3222014_22415.jpg" class="section" />
+		<img src="/nyu_2/187_3222014_22415.jpg" class="section" />
+		<img src="/nyu_2/188_3222014_22416.jpg" class="section" />
+		<img src="/nyu_2/189_3222014_231413.jpg" class="section" />
+		<img src="/nyu_2/190_3222014_231415.jpg" class="section" />
+		<img src="/nyu_2/191_3222014_232148.jpg" class="section" />
+		<img src="/nyu_2/192_3222014_232155.jpg" class="section" />
+		<img src="/nyu_2/193_3222014_23569.jpg" class="section" />
+		<img src="/nyu_2/194_3222014_235612.jpg" class="section" />
+		<img src="/nyu_2/195_3222014_235616.jpg" class="section" />
+		<img src="/nyu_2/196_3222014_235637.jpg" class="section" />
+		<img src="/nyu_2/197_3222014_235658.jpg" class="section" />
+		<img src="/nyu_2/198_3222014_23570.jpg" class="section" />
+		<img src="/nyu_2/199_3222014_23572.jpg" class="section" />
+		<img src="/nyu_2/200_3222014_23573.jpg" class="section" />
+		<img src="/nyu_2/201_3222014_235715.jpg" class="section" />
+		<img src="/nyu_2/202_3232014_054.jpg" class="section" />
+		<img src="/nyu_2/203_3232014_056.jpg" class="section" />
+		<div class="clear"></div>
+	</div>
+
+	<p style="position:fixed; right:150px; color: white; z-index:40; bottom:100px;">
+		<a href='/'>
+		HOME >
+      <!-- <img src="15mins_PUSH.png" style="position:fixed; right:100px; width:80px; height:85px; z-index:40; bottom:100px;"> -->
+    </a>
+  </p>
+</body>
+</html>

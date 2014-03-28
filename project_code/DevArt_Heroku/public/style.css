@@ -1,0 +1,13 @@
+
+
+
+	* { padding: 0; margin: 0; }
+	body { overflow-y: hidden; overflow-x: scroll; }
+
+	/*#filler { position: absolute; top: 0; left: 0; width: 3900px; height: 100%; }*/
+	#container { width: 9968px; position: absolute; top: 30%; margin-top: -150px; } 
+	#text_container { width: 9968px; position: absolute; top: 90%; margin-top: -150px;}
+	/*   container width = 712px * number of pictures  */
+
+	.clear { clear: both; }
+	

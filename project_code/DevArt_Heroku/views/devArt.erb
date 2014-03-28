@@ -1,0 +1,83 @@
+<html>
+<head>
+  <title>Pushforfame</title>
+  
+  <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
+  <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+  <style>
+    html, body {width:100%; height:100%; padding: 0; margin: 0;}
+    #cartodb-map { width: 100%; height:100%; } 
+    h1 {
+        position: absolute; left: 120px; top: 200px; z-index: 10;
+        font-family: 'Open Sans', sans-serif; font-size: 42px; color: rgba(255, 255, 255, 0.3);
+      }
+    h2 {
+        position: absolute; left: 500px; top: 213px; z-index: 10; padding: 20; padding-top: 30;
+        background-color: rgba(0, 0, 0, 0.78); 
+        color: #FF0000;
+        font-family: 'Open Sans', sans-serif; font-size: 18px;
+      }
+      .cartodb-popup p {
+        font-family: 'Open Sans' !important; font-size: 14px !important; padding: 10px !important; 
+      }
+      a:link {text-decoration:none;}    /* unvisited link */
+      a:visited {text-decoration:none; color: #FFFFFF;} /* visited link */
+      a:active {text-decoration:underline;}  /* selected link */
+      a:link {text-decoration:none; color:#FFFFFF !important; opacity:0.8;}
+      a:hover {color:#FF0000 !important;} 
+
+/*    .cartodb-timeslider {background:rgba(0, 0, 0, 0.0) !important; display:none !important;}*/
+/*    .cartodb-timeslider ul li {border-right:0px !important;}
+    .cartodb-timeslider p {display:none !important;}*/
+  </style>
+
+  <script>
+    var map;
+    function init(){
+      map = new L.Map('cartodb-map', { 
+        center: [40.745480 - 0.01, -73.991337 - 0.05],
+        zoom: 13,
+        zoomControl: false
+      })
+
+      L.tileLayer('https://dnv9my2eseobd.cloudfront.net/v3/cartodb.map-4xtxp73f/{z}/{x}/{y}.png', {
+        attribution: 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
+      }).addTo(map);
+
+      // open path 
+      var layerUrl = 'http://youjin.cartodb.com/api/v2/viz/a95c52ae-ae29-11e3-8562-0edbca4b5057/viz.json';      
+
+      cartodb.createLayer(map, layerUrl)
+        .addTo(map)
+        .on('done', function(layer) {
+          // layer.getSubLayer(0).set(subLayerOptions);
+        }).on('error', function() {
+          //log the error
+        });
+    }  
+  </script>
+</head>
+
+<body onload="init()">
+  <div id='cartodb-map'></div>
+
+  <h1><img src="bunny.jpg" width="382"></h1>
+  <h2>
+        # PUSH FOR FAME<br>   
+        <p style="font-size: 13px;">
+          <br><a href='/aboutus'>ABOUT US</a>
+          <br><br><a href='/highlights'>HIGHLIGHTS</a>
+          <br><br><a href='/people'>PEOPLE</a><br>
+        </p>
+        
+        <p style="font-size: 12px; color: grey;">
+        Directed by Yu-Ting Feng <br>
+        with Ju Young Park & Youjin Shin
+        </p>
+  </h2>
+</body>
+</html>
+
+

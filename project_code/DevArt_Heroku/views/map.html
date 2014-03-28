@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Pushforfame</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+      h1 {
+        position: absolute; left: 120px; top: 200px; z-index: 10;
+        font-family: 'Open Sans', sans-serif; font-size: 42px; color: rgba(255, 255, 255, 0.3);
+      }
+      h2 {
+        position: absolute; left: 500px; top: 213px; z-index: 10; padding: 20 !important; padding-top: 30;
+        background-color: rgba(0, 0, 0, 0.78);  font-family: 'Open Sans', sans-serif; 
+        color: #FF0000;
+      }
+      a:link {text-decoration:none;}    /* unvisited link */
+      a:visited {text-decoration:none; color: #FFFFFF;} /* visited link */
+      a:active {text-decoration:underline;}  /* selected link */
+      a:link {text-decoration:none; color:#FFFFFF !important; opacity:0.8;}
+      a:hover {color:#FF0000 !important;} 
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script>
+// This example uses SVG path notation to add a vector-based symbol
+// as the icon for a marker. The resulting icon is a star-shaped symbol
+// with a pale yellow fill and a thick yellow border.
+
+function initialize() {
+  var nyu = new google.maps.LatLng(40.7277, -73.9924);
+  var ada = new google.maps.LatLng(40.7538, -73.9932);
+  var mapOptions = {
+    zoom: 13,
+    center: new google.maps.LatLng(40.735530, -74.044724)
+  };
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+
+  // var goldStar = {
+  //   path: 'M 125,5 155,90 245,90 175,145 200,230 125,180 50,230 75,145 5,90 95,90 z',
+  //   fillColor: 'yellow',
+  //   fillOpacity: 0.8,
+  //   scale: 1,
+  //   strokeColor: 'gold',
+  //   strokeWeight: 14
+  // };
+
+  var content_nyu = '<div id="content">'+
+        '<h1 id="firstHeading" class="firstHeading">New York University</h1>'+
+        '<div id="bodyContent">'+'<p><a href="/nyu">'+ 'March 22 2014'+'</div>'+
+      '</div>';
+
+  var content_ada = '<div id="content">'+
+    '<h1 id="firstHeading" class="firstHeading">Adaptive Design Association</h1>'+
+    '<div id="bodyContent">'+'<p><a href="/ada">'+ 'March 22 2014'+'</div>'+
+  '</div>';
+
+  var infowindow_nyu = new google.maps.InfoWindow({
+      content: content_nyu 
+  });
+
+  var infowindow_ada = new google.maps.InfoWindow({
+      content: content_ada
+  });
+
+  var marker_nyu = new google.maps.Marker({
+    position: nyu,
+    // icon: goldStar,
+    map: map
+  });
+
+  var marker_ada = new google.maps.Marker({
+    position: ada,
+    // icon: goldStar,
+    map: map
+  });
+
+   google.maps.event.addListener(marker_nyu, 'click', function() {
+    infowindow_nyu.open(map,marker_nyu);
+   });
+
+   google.maps.event.addListener(marker_ada, 'click', function() {
+    infowindow_ada.open(map,marker_ada);
+  });
+
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+<!--     <body onload="init()">
+  <div id='cartodb-map'></div> -->
+
+  <h1><img src="bunny.jpg" width="382"></h1>
+  <h2>
+        # PUSH FOR FAME<br>   
+        <p style="font-size: 13px;">
+          <br><a href='/aboutus'>ABOUT US</a>
+          <br><br><a href='/highlights'>HIGHLIGHTS</a>
+          <br><br><a href='/people'>PEOPLE</a><br>
+        </p>
+        
+        <p style="font-size: 12px; color: grey;">
+        Directed by Yu-Ting Feng <br>
+        with Ju Young Park & Youjin Shin
+        </p>
+  </h2>
+<!-- </body> -->
+  </body>
+</html>

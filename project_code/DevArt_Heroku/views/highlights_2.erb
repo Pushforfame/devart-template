@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<title>Pushforfame</title>
+
+	<meta name="description" content="Horizontal Scrolling with jQuery">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+	<style>
+		body { background-color: black; }
+		.section { 
+			display: block; 
+			width: 300px; 
+			height: 168.75px; 
+			float: left; 
+			margin: 0px; 
+			opacity: 1.0; 
+			border-radius: 0px; 
+			/*top: 400px;*/
+		}
+		.blue { background-color: #06F; }
+		.green { background-color: #0f9d00; }
+		.red { background-color: #F00; }
+		.yellow { background-color: #ffea00; }
+
+		.text_section {
+			padding-left: 10px;
+		}
+		p {
+			font-family: 'Open Sans', sans-serif; 
+			font-size: 16px;
+			color: white; opacity: 0.9;
+		}
+		#container { width: 1280px; margin-top: -190px; margin-left: 120px;}  /*   container width = 712px * number of pictures  */
+		#text_container{ width: 1280px;}
+
+		a:link {text-decoration:none;}    /* unvisited link */
+      	a:visited {text-decoration:none; color: #FFFFFF;} /* visited link */
+      	a:active {text-decoration:underline;}  /* selected link */
+      	a:link {text-decoration:none; color:#FFFFFF !important; opacity:0.8;}
+      	a:hover {color:#FF0000 !important;} 
+
+	</style>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+</head>
+<body>
+	<div id="container">
+		<img src="images/feature_1.jpg" class="section" />
+		<img src="images/1.jpg" class="section" />
+		<img src="images/2.jpg" class="section" />
+		<img src="images/3.jpg" class="section" />
+		<img src="images/4.jpg" class="section" />
+		<img src="images/5.jpg" class="section" />
+		<img src="images/6.jpg" class="section" />
+		<img src="images/7.jpg" class="section" />
+		<img src="images/8.jpg" class="section" />
+		<img src="images/9.jpg" class="section" />
+		<img src="images/10.jpg" class="section" />
+		<img src="images/11.jpg" class="section" />
+		<img src="images/12.jpg" class="section" />
+		<img src="images/13.jpg" class="section" />
+		<img src="images/14.jpg" class="section" />
+		<img src="images/15.jpg" class="section" />
+	</div>
+
+	<p style="position:fixed; right:150px; color: white; z-index:40; bottom:100px;">
+		<a href='/'>
+		HOME >
+      <!-- <img src="15mins_PUSH.png" style="position:fixed; right:100px; width:80px; height:85px; z-index:40; bottom:100px;"> -->
+    	</a>
+  </p>
+<!-- 	<div id="text_container"> 
+		<p class="text_section"> 
+			NO WAR  <br>
+			I'M RUSSIAN. I'M UKRAINIAN 
+		</p>
+	</div> -->
+<!-- 	<p>NO WAR</p>
+	<p>I'm Russian</p> -->
+</body>
+</html>
