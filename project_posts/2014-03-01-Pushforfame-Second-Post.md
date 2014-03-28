@@ -3,7 +3,7 @@
 ![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/Diagram.jpg "Example Image")
 
 Version 1
-![Example Image]http://feng-yuting.com/wp-content/uploads/2014/03/10003202_10152244982762980_886389791_n.jpg "Example Image")
+![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/10003202_10152244982762980_886389791_n.jpg "Example Image")
 Simple Button and Description.
 Version 2
 ![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/1902932_10152259663007980_389383258_n.jpg "Example Image")
