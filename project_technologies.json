@@ -2,26 +2,29 @@
     "technologies": {
          "languages": [
             "javascript",
-            "Ruby",
+            "processing",
             "html5",
-            "Sinatra",
-            "Heroku",
+            "webGL",
+            "jQuery"
         ],
         "apis": [
+            "g+",
             "google maps"
         ],
         "platforms": [
             "arduino",
-            "Max/Msp"
+            "chrome developer tools"
         ],
         "toolkits": [
-          
+            "three.js",
+            "toxiclibs.js"
         ],
          "themes": [
         "DATA",
         "visualization",
-        "network activities"
-        
-        ]
+        "network activities",
+        "valuable support",
+        "empowerment"
+    ]
     }
 }
