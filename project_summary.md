@@ -3,9 +3,12 @@ Push for Fame
 
 ## Authors
 - Directed by Yu-Ting Feng, Github: Pushforfame
-- Collaborated with Jooyoung Park and Youjin Shing, surname, github account (one per list element)
+- Collaborated with Jooyoung Park and Youjin Shing
 
 ## Description
+I want to collect stories about people as a snapshot of them in time and space. The Push for Fame installation comes with a button and a camera. People take pictures by themselves, capturing and broadcasting their own story at that time and place.
+
+## Video Installation Description ##
 Hi, we are Push for Fame - a series of video installations that live on streets of NYC and Shanghai. We care about all human issues including yours.
 
 If you see us on streets, think us as a serendipitous expedition for you to address issues that you care about. With just one push on the display window, we can be friends. 
@@ -13,7 +16,6 @@ If you see us on streets, think us as a serendipitous expedition for you to addr
 You can find us at Waverley & Broadway or the Adaptive Design Association in NYC, United States. Also you can reach us at NYU ITP in Shanghai, China. Come visit us, and push the button and show your face!
 
 ## Link to Prototype
-NOTE: If your project lives online you can add one or more links here. Make sure you have a stable version of your project running before linking it.
 
 [Pushforfame_online story](http://pushforfame.herokuapp.com/ "Example Link")
 
