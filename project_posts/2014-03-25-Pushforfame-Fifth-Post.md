@@ -1,4 +1,4 @@
-#Final Out Put
+#Final Output
 ##Installation
 
 ![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/Installation.jpg "Example Image")
