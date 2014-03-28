@@ -3,7 +3,7 @@ Push for Fame
 
 ## Authors
 - Directed by Yu-Ting Feng, Github: Pushforfame
-- Collaborated with Jooyoung Park and Youjin Shing
+- Collaborated with with Ju Young Park and Youjin Shing
 
 ## Description
 I want to collect stories about people as a snapshot of them in time and space. The Push for Fame installation comes with a button and a camera. People take pictures by themselves, capturing and broadcasting their own story at that time and place.
