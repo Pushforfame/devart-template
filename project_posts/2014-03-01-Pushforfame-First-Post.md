@@ -5,9 +5,23 @@ Project Concept
 ![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/1981778_10152248302757980_1527369805_n.jpg "Example Image")
 
 Who is the audience?
+
+
 In different location, we want to push for different topic, and use different decoration to interactive. We will keep our fist two elements- button and camera as a way to engaged people.
 
 How it work?
+
+Interactive step.
+
+Step01.
+![Example Image](http://feng-yuting.com/wp-content/uploads/2014/02/vlcsnap-2014-02-03-11h51m51s189.png "Example Image")
+
+Step02.
+![Example Image](http://feng-yuting.com/wp-content/uploads/2014/02/vlcsnap-2014-02-03-11h51m21s166.png "Example Image")
+
+Step03.
+![Example Image](http://feng-yuting.com/wp-content/uploads/2014/02/vlcsnap-2014-02-03-11h52m27s48.png "Example Image")
+
 
 
 
