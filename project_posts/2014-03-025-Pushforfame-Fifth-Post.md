@@ -20,7 +20,7 @@ We will give people marker, and they can name the picture or write desctiption.
 
 They can post the picture whereever they want.
 
-####This exhibition will change base on time and people who come. The audience is the floting curator.
+####This exhibition will change base on time and people who come. The audience are the floting curators.
 
 
 
