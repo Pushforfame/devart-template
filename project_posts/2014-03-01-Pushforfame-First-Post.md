@@ -11,7 +11,7 @@ In different location, we want to push for different topic, and use different de
 
 #### How it work? ####
 
-- Interactive - 
+- Interactive 
 
 Step01.
 ![Example Image](http://feng-yuting.com/wp-content/uploads/2014/02/vlcsnap-2014-02-03-11h51m51s189.png "Example Image")
