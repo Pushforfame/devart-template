@@ -22,4 +22,7 @@ You can find us at Waverley & Broadway or the Adaptive Design Association in NYC
 ## Images & Videos
 [Pushforfame_Video](https://www.youtube.com/watch?v=zCPx_WEGuFk "Example Link")
 
+##Future Plan
+![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/Installation.jpg "Example Image")
+We want to use installation as next step plan. We use face recognation and time as the element to the algorithm. We invite audience as curator to curator the photography show. The exhibition will over time base on people and time.
 
