@@ -1,19 +1,18 @@
 {
-    "technologies": {
-        "apis": [
-            "insert apis"
-            
-            
-        ],
-        "platforms": [
-            "insert platforms"
-        ],
-        "toolkits": [
-            "insert toolkits"
-           
-        ]
-    },
-    "themes": [
-        "insert themes"
+  "technologies": {
+    "apis": [
+      "Google Maps",
+      
+    ],
+    "platforms": [
+      "Arduino",
+      
+    ],
+    "toolkits": [
+     
     ]
+  },
+  "themes": [
+  
+  ]
 }
