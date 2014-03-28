@@ -1,21 +1,16 @@
 {
- +    "technologies": {
- +        "apis": [
- +            "Web Speech",
- +            "Google Plus"
- +        ],
- +        "platforms": [
- +            "Google Compute Engine"
- +        ],
- +        "toolkits": [
- +            "Node.js",
- +            "Three.js",
- +            "Mongodb"
- +        ]
- +    },
- +    "themes": [
- +        "Wishes",
- +        "Particles",
- +        "Dreams"
- +    ]
- +}
+    "technologies": {
+        "apis": [
+            "insert apis"
+        ],
+        "platforms": [
+            "insert platforms"
+        ],
+        "toolkits": [
+            "insert toolkits"
+        ]
+    },
+    "themes": [
+        "insert themes"
+    ]
+}
