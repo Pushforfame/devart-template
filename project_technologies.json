@@ -1,13 +1,21 @@
 {
     "technologies": {
         "apis": [
-            "insert apis"
+            "maps"
+            "github"
         ],
         "platforms": [
-            "insert platforms"
+            "arduino"
+            "ios"
+            
         ],
         "toolkits": [
             "github"
+            "open cv"
+            "open gl"
+            "javascript"
+            "html"
+            
         ]
     },
     "themes": [
