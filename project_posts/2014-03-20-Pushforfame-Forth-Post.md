@@ -1,5 +1,5 @@
 ##Gif Pictures Showcase
-Because people usually press button many time, so we decide to make a gif file for them.
+Because people tend to press the button multiple times, so we decide to make an animated gif file for the multiple pictures.
 ![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/302_332014_221649.gif "Example Image")
 ![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/Ting1645.gif "Example Image")
 People's reaction start to change. They try to send some message to us.
