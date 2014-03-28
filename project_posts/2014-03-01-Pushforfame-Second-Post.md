@@ -20,6 +20,6 @@ When you press button lights will turn on.
 ![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/10147225_10152265691772980_1409919037_o.jpg "Example Image")
 ###Package for Shanghai
 ![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/10007001_10152298302477980_24768540_n.jpg "Example Image")
-###Version in ADA
+###Version in Adaptive Design Association
 ![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/BjNC35qIEAA0dPS.jpg "Example Image")
 
