@@ -19,12 +19,7 @@ You can find us at Waverley & Broadway or the Adaptive Design Association in NYC
 
 [Pushforfame_online story](http://pushforfame.herokuapp.com/ "Example Link")
 
-
-
 ## Images & Videos
-NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
-
-![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/15mins_PUSH.jpg "Example Image")
 [Pushforfame_Video](https://www.youtube.com/watch?v=zCPx_WEGuFk "Example Link")
 
 
