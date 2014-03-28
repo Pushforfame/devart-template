@@ -1,4 +1,4 @@
-##Picture Gif file showcase
+##Gif Pictures Showcase
 Because people usually press button many time, so we decide to make a gif file for them.
 ![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/302_332014_221649.gif "Example Image")
 ![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/Ting1645.gif "Example Image")
