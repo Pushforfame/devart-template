@@ -20,14 +20,6 @@ You can find us at Waverley & Broadway or the Adaptive Design Association in NYC
 [Pushforfame_online story](http://pushforfame.herokuapp.com/ "Example Link")
 
 
-## Example Code
-NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
-```
-function test() {
-  console.log("Printing a test");
-}
-```
-
 ## Images & Videos
 NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
 
