@@ -6,9 +6,12 @@
     ],
     "platforms": [
       "Arduino",
+      "Java Script",
+      "CSS"
       
     ],
     "toolkits": [
+      "open cv"
      
     ]
   },
