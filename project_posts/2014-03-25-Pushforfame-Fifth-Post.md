@@ -4,25 +4,25 @@
 ![Example Image](http://feng-yuting.com/wp-content/uploads/2014/03/Installation.jpg "Example Image")
 
 
-We want to use installation as final out put. Here is the sinerio.
+We want to use installation as final out put. Here is the scenario.
 
 ###Step01.
 
-We set up a installation exectly same as the one on street in an empty gallery. This installation  will have function to print out pictures.
+We plan to set up exactly same installation of Push for Fame in an empty gallery. This installation  will have an additional function to print out pictures.
 
 ###Step02. 
 
-People come to gallery and press the button. Machine will find a mach picture base on algorithm. The match picture will decide by time and how similar people look like.
+General public can come to the gallery and press the button. Located machine will find a matched picture based on face detecting algorithm. The matched picture will be selected by how similar people look like and by the time picture was taken.
 
 ###Step03. 
 
-We will give people marker, and they can name the picture or write desctiption.
+We will give people markers, so that they can name the printed/selected picture or write desctiption.
 
 ###Step 04. 
 
-They can post the picture whereever they want.
+People can curate the gallery by posting them wherever they want.
 
-####This exhibition will change based on time and people who come. The audience are the floating curators.
+####This exhibition will always vary based on time and people who come. Our goal is to let the audience be floating curators.
 
 
 
