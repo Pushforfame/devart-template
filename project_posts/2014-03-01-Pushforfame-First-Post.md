@@ -29,9 +29,11 @@ Step03.
 Project Reference
 
 Josh http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html
-Jonathan Harris
+
+Jonathan Harris 
+
 http://number27.org/
-I love your work
+
 http://iloveyourwork.net/
 
 
