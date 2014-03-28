@@ -1,21 +1,27 @@
 {
-  "technologies": {
-    "apis": [
-      "Google Maps",
-      
-    ],
-    "platforms": [
-      "Arduino",
-      "Java Script",
-      "CSS"
-      
-    ],
-    "toolkits": [
-      "open cv"
-     
+    "technologies": {
+         "languages": [
+            "javascript",
+            "Ruby",
+            "html5",
+            "Sinatra",
+            "Heroku",
+        ],
+        "apis": [
+            "google maps"
+        ],
+        "platforms": [
+            "arduino",
+            "Max/Msp"
+        ],
+        "toolkits": [
+          
+        ],
+         "themes": [
+        "DATA",
+        "visualization",
+        "network activities",
+        
     ]
-  },
-  "themes": [
-  
-  ]
+    }
 }
