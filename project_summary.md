@@ -1,5 +1,4 @@
-# Title
-Push for Fame
+# Push for fame
 
 ## Author
 
