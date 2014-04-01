@@ -1,7 +1,7 @@
 # Title
 Push for Fame
 
-## Authors
+## Author
 
 * [Yu-Ting Feng](http://feng-yuting.com/ "Yu-Ting Feng"), https://github.com/Pushforfame
 * [Youjin Shin](http://youjinshin.com "Youjin Shin")
