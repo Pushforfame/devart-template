@@ -15,7 +15,7 @@ If you see us on streets, think us as a serendipitous expedition for you to addr
 
 You can find us at Waverley & Broadway or the Adaptive Design Association in NYC, United States. Also you can reach us at NYU ITP in Shanghai, China. Come visit us, and push the button!
 
-## Link to Prototype
+##Link to Prototype
 
 [Pushforfame_online story](http://pushforfame.herokuapp.com/ "Example Link")
 
